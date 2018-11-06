@@ -57,7 +57,7 @@ and/or run the solution in the container:
 docker run -t nodejs-code-challenge-bennett npm run start 
 ```
 If you would like to have the output of the transformation solution sent to another location, you can
-map a volume to /output. For example:
+map a volume to /var/lib/solution/output. For example:
 ```
 docker run -t -v /my-local-dir:/var/lib/solution/output nodejs-code-challenge-bennett npm run start
 ``` 
@@ -69,5 +69,5 @@ provided as part of the challenge (data-transformed-requirement.json), run:
 diff data-transformed-requirement.json data-transformed.json
 ```
 
-#Questions/Issues?
+# Questions/Issues
 Open an issue or question in the github project. Thanks!
