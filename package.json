@@ -5,7 +5,10 @@
   "main": "solution/solution1.js",
   "scripts": {
     "start": "node solution.js",
-    "test": "mocha"
+    "test": "mocha",
+    "jsdoc-solution": "jsdoc solution.js -d docs",
+    "jsdoc-converter": "jsdoc order-converter.js -d docs"
+
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   "author": "Bennett Ellis",
   "license": "BSD-3-Clause",
   "devDependencies": {
+    "jsdoc": "^3.5.5",
     "mocha": "^5.2.0"
   }
 }
