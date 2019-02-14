@@ -58,7 +58,7 @@ exports.handler = (event, context, callback) => {
         .then(tasksToStop => {
           // stop all found DMS tasks that are running
           return Promise.all(tasksToStop.ReplicationTasks.map(replicatonTask => {
-            return dms.stopReplicationTask({"ReplicationTaskArn": replicationTask.ReplicationTaskArn}).promise();
+            return dms.stopReplicationTask({"ReplicationTaskArn": replicatonTask.ReplicationTaskArn}).promise();
           }));
         })
         .then(() => {
