@@ -6,4 +6,4 @@ phases:
 artifacts:
   files:
     - lambda/index.js
-  discard-paths: no
+  discard-paths: yes
