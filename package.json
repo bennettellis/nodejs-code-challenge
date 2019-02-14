@@ -8,7 +8,6 @@
     "test": "mocha",
     "jsdoc-solution": "jsdoc solution.js -d docs",
     "jsdoc-converter": "jsdoc order-converter.js -d docs"
-
   },
   "repository": {
     "type": "git",

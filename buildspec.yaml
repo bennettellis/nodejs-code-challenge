@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      echo 'copying files to s3...'
+artifacts:
+  files:
+    - '*.js'
+  discard-paths: no
