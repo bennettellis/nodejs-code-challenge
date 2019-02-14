@@ -5,5 +5,5 @@ phases:
       echo 'copying files to s3...'
 artifacts:
   files:
-    - '*.js'
+    - lambda/index.js
   discard-paths: no
