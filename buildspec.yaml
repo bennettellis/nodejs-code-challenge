@@ -1,9 +1,0 @@
-version: 0.2
-phases:
-  build:
-    commands:
-      echo 'copying files to s3...'
-artifacts:
-  files:
-    - lambda/index.js
-  discard-paths: yes
